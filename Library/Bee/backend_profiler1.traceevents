@@ -1,0 +1,468 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669204989498732, "dur":2816, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204989501564, "dur":76, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669204989501664, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669204989501696, "dur":329, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669204989502094, "dur":869, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204989502963, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993122754, "dur":311, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123065, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123084, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123089, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123101, "dur":399, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123500, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123516, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123521, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123532, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123549, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993123619, "dur":2959, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669204989502652, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989503009, "dur":8182, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989511213, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669204989511220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989514948, "dur":2422, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669204989517374, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669204989517467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989518212, "dur":9154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669204989527369, "dur":10907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989538283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989538295, "dur":5445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989544019, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669204989544327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989544524, "dur":23860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669204989568475, "dur":9704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989578185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989578198, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989580238, "dur":12379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989592623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989592635, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989595337, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989595703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989595713, "dur":9641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669204989605425, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669204989605879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989605890, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669204989609845, "dur":107284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204989717136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204989923259, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204989929222, "dur":306527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669204990235754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990235764, "dur":40045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669204990275952, "dur":10080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669204990286038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990286728, "dur":33369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669204990320172, "dur":26795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990346973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990347568, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990348892, "dur":26175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990375073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990375192, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990376468, "dur":62914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990439389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990439400, "dur":21138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990460603, "dur":113428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990574038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990574048, "dur":40827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990614996, "dur":32419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990647422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990647433, "dur":15697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990663195, "dur":152365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990815566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990815577, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990817718, "dur":28743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990846467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990846524, "dur":8888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990855479, "dur":74974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990930459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204990930469, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204990938572, "dur":71324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991009902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991009918, "dur":8333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991018319, "dur":23465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991041789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991041801, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991045208, "dur":20476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991065691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991065701, "dur":12223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991078038, "dur":82081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991160125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991160135, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991162428, "dur":24947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991187381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991187424, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991189395, "dur":22541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991211942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991211953, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991213539, "dur":22469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991236017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991236028, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991237689, "dur":79176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991316871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991316883, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991318774, "dur":173999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991492778, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991492789, "dur":11601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991504453, "dur":157693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991662152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991662164, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991664643, "dur":75321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991739999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991740010, "dur":43545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991783612, "dur":88935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991872553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204991872566, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204991878151, "dur":331236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992209393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204992209403, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992214524, "dur":103255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992317785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204992317795, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992319707, "dur":249307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992569049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204992569061, "dur":10161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992579285, "dur":256765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992836056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669204992836067, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669204992837890, "dur":284843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204989502656, "dur":373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204989503030, "dur":8181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204989511213, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669204989511777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204989520596, "dur":9533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669204989530208, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669204989530364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204989530374, "dur":398476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669204989928913, "dur":359672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990288598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990288758, "dur":9950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990298775, "dur":97092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990395874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990395884, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990397770, "dur":58592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990456368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990456379, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990458256, "dur":21343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990479604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990479614, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990483436, "dur":156634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990640076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990640087, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990641896, "dur":21634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990663535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990663545, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990666052, "dur":20313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990686371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990686382, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990688275, "dur":41167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990729448, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990729460, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990731662, "dur":183131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990914799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990914809, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990917014, "dur":60259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990977280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204990977293, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204990978977, "dur":55384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991034368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991034378, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991037623, "dur":18865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991056492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991056501, "dur":16236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991072808, "dur":57931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991130744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991134775, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991137550, "dur":46684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991184240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991184250, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991186066, "dur":174506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991360582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991360595, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991363751, "dur":60694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991424451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991424461, "dur":9577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991434103, "dur":173905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991608055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991608066, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991609564, "dur":168117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991777687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991777699, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991779060, "dur":28699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991807768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991807781, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991811118, "dur":2218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991813342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991813353, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991814880, "dur":35041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991849928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991849938, "dur":14110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991864131, "dur":2553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991866690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204991866703, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204991868399, "dur":184535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992052940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992052951, "dur":9403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992062415, "dur":256292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992318713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992318725, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992321049, "dur":287628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992608683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992608693, "dur":7065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992615822, "dur":178135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992793962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992793974, "dur":5299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992799351, "dur":1391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992800748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992800759, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669204992808450, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992808639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992809150, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992810418, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669204992810475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992810535, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669204992812209, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669204992812268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992812277, "dur":5061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669204992817402, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669204992817459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992817467, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669204992818884, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992819064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992819072, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992820393, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992821581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992821591, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1669204992823227, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669204992823371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992823386, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669204992824874, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669204992824929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992824937, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669204992826397, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669204992826459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992826471, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669204992827764, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669204992827940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669204992827947, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669204992829136, "dur":293596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204989502703, "dur":336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204989503039, "dur":8165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204989511213, "dur":45778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1669204989556997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204989558680, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1669204989560251, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669204989560406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204989560418, "dur":368427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669204989928915, "dur":777939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990706860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204990706868, "dur":24059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990730995, "dur":183038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990914039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204990914051, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990917210, "dur":20056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990937272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204990937283, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990938844, "dur":46001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990984852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204990984863, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204990986568, "dur":23506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991010079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991010087, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991013169, "dur":22848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991036023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991036034, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991038133, "dur":18350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991056490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991056501, "dur":40686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991097260, "dur":33739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991134879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991134891, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991137661, "dur":20856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991158523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991158534, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991160332, "dur":29746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991190085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991190095, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991192429, "dur":20439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991212877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991212891, "dur":14990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991227941, "dur":28407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991256353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991256363, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991258569, "dur":25716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991284291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991284302, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991285737, "dur":27966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991313710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991313720, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991317834, "dur":23689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991341529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991341540, "dur":11564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991353165, "dur":33070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991386240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991386250, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991388552, "dur":39801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991428358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991428369, "dur":37780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991466218, "dur":29791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991496015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991496026, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991498357, "dur":59962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991558325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991558336, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991560077, "dur":86865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991646948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991646959, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991650727, "dur":312686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991963419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204991963429, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204991967036, "dur":128377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992095419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992095429, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992097581, "dur":140307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992237893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992237903, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992240739, "dur":181685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992422430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992422441, "dur":12319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992434825, "dur":68336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992503167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992503177, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992505792, "dur":181184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992686982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992686993, "dur":6232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992693289, "dur":65254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992758550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204992758560, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204992760240, "dur":358456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204993118701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669204993118709, "dur":3899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669204993122690, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1669204993122694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989502834, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989503046, "dur":8527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989511574, "dur":10238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989521818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989522279, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989525972, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669204989526435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989526446, "dur":9833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669204989536356, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669204989536593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989537211, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669204989542098, "dur":10296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989552400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989552411, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989554074, "dur":11009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989565089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989565100, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669204989566585, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669204989566804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989567562, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669204989570540, "dur":1351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669204989571897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989572020, "dur":9775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669204989583116, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669204989583355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204989583367, "dur":348596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669204989932030, "dur":472948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack).exe" }}
+,{ "pid":12345, "tid":4, "ts":1669204990404983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990404991, "dur":19915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack).exe" }}
+,{ "pid":12345, "tid":4, "ts":1669204990424962, "dur":53641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990478609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990478620, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990481563, "dur":23192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990504761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990504772, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990506162, "dur":64410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990570579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990570593, "dur":12627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990583295, "dur":29568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990612870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990612910, "dur":6995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990620004, "dur":20327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990640336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990640344, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990643181, "dur":82667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990725855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990725868, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990728663, "dur":110755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990839424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990839434, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990842755, "dur":51199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990893965, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204990893976, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204990895885, "dur":126854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991022747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991022759, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991024495, "dur":68411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991092916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991093875, "dur":5498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991099433, "dur":76848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991176287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991176298, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991178358, "dur":83703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991262067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991262112, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991269051, "dur":55502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991324559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991324576, "dur":10859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991335502, "dur":23982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991359490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991359530, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991363178, "dur":23224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991386406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991386415, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991389412, "dur":20330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991409748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991409759, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991411940, "dur":51801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991463747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991463758, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991466021, "dur":55685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991521712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991521723, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991523419, "dur":135417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991658842, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991658853, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991662825, "dur":24929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991687759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991687771, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991689175, "dur":40957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991730138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991730150, "dur":8584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991738798, "dur":54850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991793655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991793665, "dur":14416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991808141, "dur":27832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991835979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991835991, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991837757, "dur":13482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991851245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991851256, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991854733, "dur":32932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991887671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991887682, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991889043, "dur":96372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991985421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204991985432, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204991987267, "dur":227253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992214524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204992214534, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992216199, "dur":47373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992263604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204992263616, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992266842, "dur":69188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992336036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204992336047, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992338118, "dur":258083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992596207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204992596219, "dur":9517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992605800, "dur":155550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992761356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204992761366, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204992763119, "dur":272797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204993035924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669204993035934, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bruger/Documents/Mercantec/Puzzle Platformer (Nack)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669204993037762, "dur":85365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669204993129618, "dur":3483, "ph":"X", "name": "ProfilerWriteOutput" }
+,
